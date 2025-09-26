@@ -20,14 +20,23 @@ This addon was developed by **vskbellala** using Google's **Gemini 2.5 Pro**.
       * Access it for a specific deck via the gear icon in the Deck Browser, which automatically pre-selects that deck for you.
   * **Detailed Output:** Optionally view the full day-by-day schedule to see the plan in detail.
 
+Of course. Using the `.ankiaddon` file is a much cleaner and easier installation method for users. Here is the reworked "Installation" section for your README.
+
+It now features the "Install from File" method as the primary instruction and keeps the manual method as a collapsible alternative for advanced users.
+
+-----
+
 ## Installation
 
-1.  Go to the [Releases page](https://www.google.com/search?q=https://github.com/vskbellala/YOUR-REPO-NAME/releases) of this repository. 2.  Download the `.zip` file from the latest release.
-2.  Unzip the downloaded file. You should see a folder named `AnkiStudyScheduler`.
-3.  Open Anki on your computer.
-4.  Go to `Tools` \> `Add-ons` \> `Open Add-ons Folder...`.
-5.  Drag the `AnkiStudyScheduler` folder into the Anki addons folder that just opened.
-6.  Restart Anki.
+The recommended way to install is by using the `.ankiaddon` file.
+
+1.  Go to the main page of this repository.
+2.  Find and download the `ankistudyscheduler.ankiaddon` file to your computer.
+3.  Open Anki.
+4.  Go to `Tools` \> `Add-ons`.
+5.  Click the **"Install from File..."** button at the bottom of the window.
+6.  Navigate to where you downloaded the `ankistudyscheduler.ankiaddon` file, select it, and click "Open".
+7.  Restart Anki to complete the installation.
 
 ## How to Use
 
@@ -48,6 +57,49 @@ This addon was developed by **vskbellala** using Google's **Gemini 2.5 Pro**.
 5.  Check the box that says **"Apply calculated rate to selected deck's 'New cards/day' limit"**.
 6.  Click **"Generate My Schedule"**.
 7.  A confirmation box will appear. Click **"Yes"** to apply the new daily limit directly to your deck's settings.
+
+Of course. Adding a "Building" section is a great idea for developers or users who want to package the addon from the source code themselves.
+
+Here is a new section for your README. You can add this between the "Installation" and "A Note on AI Collaboration" sections.
+
+This guide includes a sample `make.bat` script that you can add to your repository. This script will automatically package the `AnkiStudyScheduler` folder into the `ankistudyscheduler.ankiaddon` file.
+
+-----
+
+## Building the Addon
+
+These instructions are for developers or users who want to build the `.ankiaddon` package from the source code.
+
+This process requires a Windows machine and involves running a batch script.
+
+#### Instructions
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/vskbellala/AnkiStudyScheduler.git
+    ```
+
+2.  **Navigate into the repository folder:**
+
+    ```bash
+    cd AnkiStudyScheduler
+    ```
+
+3.  **Run the build script:**
+
+    ```bash
+    make.bat
+    ```
+
+    *Alternatively, run the following command:*
+     ```bash
+    cd src && zip -r ../ankistudyscheduler.ankiaddon *
+    ```
+
+4.  If successful, a new file named `ankistudyscheduler.ankiaddon` will be created in the root of the repository. You can then install this file by following the installation instructions above.
+
+-----
 
 ## A Note on AI Collaboration
 
