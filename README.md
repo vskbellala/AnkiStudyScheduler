@@ -2,7 +2,7 @@
 
 An Anki addon designed to help you plan your long-term study schedules. Calculate the daily new card rate needed to meet a deadline, or predict your finish date based on a set pace. You can even apply the calculated settings directly to your decks\!
 
-This addon was developed by **vskbellala** using Google's **Gemini 2.5 Pro**.
+This addon was developed using Google's **Gemini 2.5 Pro**.
 
 -----
 
@@ -19,6 +19,8 @@ This addon was developed by **vskbellala** using Google's **Gemini 2.5 Pro**.
       * Access the scheduler globally from the `Tools` menu.
       * Access it for a specific deck via the gear icon in the Deck Browser, which automatically pre-selects that deck for you.
   * **Detailed Output:** Optionally view the full day-by-day schedule to see the plan in detail.
+
+![Screenshot of addon](https://bellala.org/img/ankistudyscheduler.webp)
 
 ## Installation
 
@@ -91,7 +93,7 @@ This process requires a Windows machine and involves running a batch script.
 
 ## A Note on AI Collaboration
 
-This addon was developed by **vskbellala** using **Google's Gemini 2.5 Pro**. The entire project—from the initial Python script to the PyQt6 user interface, Anki API integration, feature enhancements, and debugging—was built through a conversational development process with the AI.
+This addon was developed using **Google's Gemini 2.5 Pro**. The entire project was built through a conversational development process with the AI.
 
 ## Purpose & Disclaimer
 
