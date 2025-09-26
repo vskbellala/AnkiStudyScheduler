@@ -1,0 +1,8 @@
+{
+    "name": "Study Scheduler",
+    "package": "AnkiStudyScheduler",
+    "author": "vskbellala",
+    "version": "1.0",
+    "conflicts": [],
+    "supported_versions": ["23.10+", "24.04+", "25.09+"]
+}
