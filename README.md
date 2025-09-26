@@ -20,12 +20,6 @@ This addon was developed by **vskbellala** using Google's **Gemini 2.5 Pro**.
       * Access it for a specific deck via the gear icon in the Deck Browser, which automatically pre-selects that deck for you.
   * **Detailed Output:** Optionally view the full day-by-day schedule to see the plan in detail.
 
-Of course. Using the `.ankiaddon` file is a much cleaner and easier installation method for users. Here is the reworked "Installation" section for your README.
-
-It now features the "Install from File" method as the primary instruction and keeps the manual method as a collapsible alternative for advanced users.
-
------
-
 ## Installation
 
 The recommended way to install is by using the `.ankiaddon` file.
