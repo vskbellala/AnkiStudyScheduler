@@ -52,12 +52,6 @@ The recommended way to install is by using the `.ankiaddon` file.
 6.  Click **"Generate My Schedule"**.
 7.  A confirmation box will appear. Click **"Yes"** to apply the new daily limit directly to your deck's settings.
 
-Of course. Adding a "Building" section is a great idea for developers or users who want to package the addon from the source code themselves.
-
-Here is a new section for your README. You can add this between the "Installation" and "A Note on AI Collaboration" sections.
-
-This guide includes a sample `make.bat` script that you can add to your repository. This script will automatically package the `AnkiStudyScheduler` folder into the `ankistudyscheduler.ankiaddon` file.
-
 -----
 
 ## Building the Addon
